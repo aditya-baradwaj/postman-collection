@@ -2168,7 +2168,7 @@ declare module "postman-collection" {
         type: string;
         src: Url;
         exec: string[];
-        packages: string[];
+        packages: Object[];
         /**
          * Check whether an object is an instance of ItemGroup.
          * @param obj - -
